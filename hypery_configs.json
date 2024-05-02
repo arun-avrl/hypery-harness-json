@@ -80,8 +80,53 @@
     },
     "blueyonder": {
         "input_data": {
-            "loadID": "131241",
-            "xyz": "123"
+            "shipper_code": "testaccount",
+            "load_id": "VLL467783",
+            "origin_city": "Utica",
+            "origin_state": "NY",
+            "origin_country": "USA",
+            "origin_postal_code": "10012",
+            "origin_facility": "SomeFacility",
+            "destination_city": "Austin",
+            "destination_state": "TX",
+            "destination_country": "USA",
+            "destination_postal_code": "78704",
+            "destination_facility": "SomeOtherFacility",
+            "pickup_date_time": "2024-05-01 08:00:00",
+            "delivery_date_time": "2024-05-02 08:00:00",
+            "accessorials": [
+                "driver_assist"
+            ],
+            "equipment_type": "dryvan",
+            "transit_related_items": [
+                "team_driver"
+            ],
+            "weight": 45000,
+            "distance_mi": 1750,
+            "max_temp_f": 85,
+            "min_temp_f": 45,
+            "commodity": "distilled alcohol and ethaanol products",
+            "cargo_value": 11100,
+            "stops_info": [
+                {
+                    "city": "New York,",
+                    "state": "NY",
+                    "country": "USA",
+                    "postal_code": "10012",
+                    "facility_name": "SomeFacility",
+                    "type": "pickup",
+                    "live_drop": "live"
+                },
+                {
+                    "city": "Austin",
+                    "state": "TX",
+                    "country": "USA",
+                    "postal_code": "78704",
+                    "facility_name": "SomeOtherFacility",
+                    "type": "delivery",
+                    "live_drop": "live"
+                }
+            ]
         }, 
         "validate": {
             "variables": [
