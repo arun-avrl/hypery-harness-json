@@ -81,7 +81,7 @@
     "blueyonder": {
         "input_data": {
             "loadID": "131241",
-            "xyz": ""
+            "xyz": "123"
         }, 
         "validate": {
             "variables": [
