@@ -93,11 +93,16 @@
             "destination_postal_code": "78704",
             "destination_facility": "SomeOtherFacility",
             "pickup_date_time": "2024-05-01 08:00:00",
+            "pickup_window_hrs": 8,
+            "pickup_timezone": "America/New_York",
             "delivery_date_time": "2024-05-02 08:00:00",
+            "delivery_window_hrs": 8,
+            "delivery_timezone": "America/New_York",
             "accessorials": [
                 "driver_assist"
             ],
             "equipment_type": "dryvan",
+            "truck_mode": "ltl",
             "transit_related_items": [
                 "team_driver"
             ],
@@ -107,6 +112,9 @@
             "min_temp_f": 45,
             "commodity": "distilled alcohol and ethaanol products",
             "cargo_value": 11100,
+            "lane_count": 1,
+            "stops": 0,
+            "stops_inbetween": 0,
             "stops_info": [
                 {
                     "city": "New York,",
