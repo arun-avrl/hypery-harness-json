@@ -42,6 +42,7 @@
                     "state": "NY",
                     "country": "USA",
                     "postal_code": "10012",
+                    "facility": "SomeFacility",
                     "facility_name": "SomeFacility",
                     "type": "pickup",
                     "live_drop": "live"
@@ -51,6 +52,7 @@
                     "state": "TX",
                     "country": "USA",
                     "postal_code": "78704",
+                    "facility": "SomeOtherFacility",
                     "facility_name": "SomeOtherFacility",
                     "type": "delivery",
                     "live_drop": "live"
@@ -121,6 +123,7 @@
                     "state": "NY",
                     "country": "USA",
                     "postal_code": "10012",
+                    "facility": "SomeFacility",
                     "facility_name": "SomeFacility",
                     "type": "pickup",
                     "live_drop": "live"
@@ -130,6 +133,7 @@
                     "state": "TX",
                     "country": "USA",
                     "postal_code": "78704",
+                    "facility": "SomeOtherFacility",
                     "facility_name": "SomeOtherFacility",
                     "type": "delivery",
                     "live_drop": "live"
@@ -200,6 +204,7 @@
                     "state": "NY",
                     "country": "USA",
                     "postal_code": "10012",
+                    "facility": "SomeFacility",
                     "facility_name": "SomeFacility",
                     "type": "pickup",
                     "live_drop": "live"
@@ -209,6 +214,7 @@
                     "state": "TX",
                     "country": "USA",
                     "postal_code": "78704",
+                    "facility": "SomeOtherFacility",
                     "facility_name": "SomeOtherFacility",
                     "type": "delivery",
                     "live_drop": "live"
