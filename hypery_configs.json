@@ -250,10 +250,172 @@
                     "variable_name": "__RESP__rate_type",
                     "required": true,
                     "allowed": true
-                },
+                }
             ],
-            "equipment_types": ["dryvan","reefer","flatbed","dry_bulk","conestoga","curtainside","double_drop","sprinter","step_deck","tanker"],
-            "accessorials": ["hazmat", "drop_trailer_at_pickup", "drop_trailer_at_delivery"]
+            "equipment_types": ["dryvan","dry_ltl","dry_imdl","reefer","reefer_ltl","flatbed","flat_ltl","conestoga","tanker","step_deck","box_truck","parcel","power_only","goose_neck","double_drop","curtainside","sprinter","hotshot","dry_bulk","wet_bulk","container_fcl","container_lcl","dump_trailer","maxi_trailer","trailer_pool_interchange"],
+            "accessorials": ["driver_assist","floor_loaded","hazmat","pallet_jack","pallet_exchange","tanker_endorsement","washout","weight_ticket","drop_trailer_at_pickup","drop_trailer_at_delivery","tarps_4ft","tarps_8ft","pipe_stakes","twic_card","lift_gate","pu_lift_gate","pu_residential","residential"]
+        }
+    },
+    "navisphere": {
+        "input_data": {
+            "shipper_code": "testaccount",
+            "load_id": "VLL467783",
+            "origin_city": "Utica",
+            "origin_state": "NY",
+            "origin_country": "USA",
+            "origin_postal_code": "10012",
+            "origin_facility": "SomeFacility",
+            "destination_city": "Austin",
+            "destination_state": "TX",
+            "destination_country": "USA",
+            "destination_postal_code": "78704",
+            "destination_facility": "SomeOtherFacility",
+            "pickup_date_time": "2024-07-01 08:00:00",
+            "pickup_window_hrs": 8,
+            "pickup_timezone": "America/New_York",
+            "delivery_date_time": "2024-07-05 08:00:00",
+            "delivery_window_hrs": 8,
+            "delivery_timezone": "America/New_York",
+            "accessorials": [
+                "driver_assist"
+            ],
+            "equipment_type": "dryvan",
+            "truck_mode": "ltl",
+            "transit_related_items": [
+                "team_driver"
+            ],
+            "weight": 45000,
+            "distance_mi": 1750,
+            "max_temp_f": 85,
+            "min_temp_f": 45,
+            "commodity": "distilled alcohol and ethaanol products",
+            "cargo_value": 11100,
+            "lane_count": 1,
+            "stops": 0,
+            "stops_inbetween": 0,
+            "stops_info": [
+                {
+                    "city": "New York,",
+                    "state": "NY",
+                    "country": "USA",
+                    "postal_code": "10012",
+                    "facility": "SomeFacility",
+                    "facility_name": "SomeFacility",
+                    "type": "pickup",
+                    "live_drop": "live"
+                },
+                {
+                    "city": "Austin",
+                    "state": "TX",
+                    "country": "USA",
+                    "postal_code": "78704",
+                    "facility": "SomeOtherFacility",
+                    "facility_name": "SomeOtherFacility",
+                    "type": "delivery",
+                    "live_drop": "live"
+                }
+            ]
+        },
+        "validate": {
+            "variables": [
+                {
+                    "input_type": "literal",
+                    "type": "int",
+                    "variable_name": "__RESP__valid_hrs",
+                    "required": false,
+                    "allowed": true
+                },
+                {
+                    "input_type": "literal",
+                    "type": "int",
+                    "variable_name": "__RESP__hrs_before_pickup",
+                    "required": false,
+                    "allowed": true
+                }
+            ],
+            "equipment_types": ["dryvan","reefer"],
+            "accessorials": ["hazmat","tanker_endorsement","drop_trailer_at_pickup","drop_trailer_at_delivery"]
+        }
+    },
+    "emerge": {
+        "input_data": {
+            "shipper_code": "testaccount",
+            "load_id": "VLL467783",
+            "origin_city": "Utica",
+            "origin_state": "NY",
+            "origin_country": "USA",
+            "origin_postal_code": "10012",
+            "origin_facility": "SomeFacility",
+            "destination_city": "Austin",
+            "destination_state": "TX",
+            "destination_country": "USA",
+            "destination_postal_code": "78704",
+            "destination_facility": "SomeOtherFacility",
+            "pickup_date_time": "2024-07-01 08:00:00",
+            "pickup_window_hrs": 8,
+            "pickup_timezone": "America/New_York",
+            "delivery_date_time": "2024-07-05 08:00:00",
+            "delivery_window_hrs": 8,
+            "delivery_timezone": "America/New_York",
+            "accessorials": [
+                "driver_assist"
+            ],
+            "equipment_type": "dryvan",
+            "truck_mode": "ltl",
+            "transit_related_items": [
+                "team_driver"
+            ],
+            "weight": 45000,
+            "distance_mi": 1750,
+            "max_temp_f": 85,
+            "min_temp_f": 45,
+            "commodity": "distilled alcohol and ethaanol products",
+            "cargo_value": 11100,
+            "lane_count": 1,
+            "stops": 0,
+            "stops_inbetween": 0,
+            "stops_info": [
+                {
+                    "city": "New York,",
+                    "state": "NY",
+                    "country": "USA",
+                    "postal_code": "10012",
+                    "facility": "SomeFacility",
+                    "facility_name": "SomeFacility",
+                    "type": "pickup",
+                    "live_drop": "live"
+                },
+                {
+                    "city": "Austin",
+                    "state": "TX",
+                    "country": "USA",
+                    "postal_code": "78704",
+                    "facility": "SomeOtherFacility",
+                    "facility_name": "SomeOtherFacility",
+                    "type": "delivery",
+                    "live_drop": "live"
+                }
+            ]
+        },
+        "validate": {
+            "variables": [
+                {
+                    "input_type": "literal",
+                    "type": "int",
+                    "variable_name": "__RESP__valid_hrs",
+                    "required": false,
+                    "allowed": true
+                },
+                {
+                    "input_type": "literal",
+                    "type": "int",
+                    "variable_name": "__RESP__hrs_before_pickup",
+                    "required": false,
+                    "allowed": true
+                }
+            ],
+            "equipment_types": ["dryvan","dry_imdl","reefer","flatbed","conestoga","step_deck","power_only","goose_neck","container_fcl","dump_trailer","maxi_trailer","trailer_pool_interchange"],
+            "accessorials": ["hazmat","drop_trailer_at_pickup","drop_trailer_at_delivery","tarps_8ft"]
         }
     }
 }
