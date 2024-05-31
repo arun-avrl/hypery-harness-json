@@ -1,0 +1,12 @@
+{
+    "dupre": {
+        "pre_bnbpa": "",
+        "post_bnbpa": "post_bnbpa_dupre1",
+        "stub_parb": "https://parbv1.uc.r.appspot.com/zebra/pricing_arbitrator"
+    },
+    "edge": {
+        "pre_bnbpa": "pre_bnb_edge2",
+        "post_bnbpa": "post_bnb_edge1",
+        "stub_parb": "https://parbv1.uc.r.appspot.com/coast/pricing_arbitrator"
+    }
+}
