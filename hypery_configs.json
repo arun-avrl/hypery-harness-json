@@ -65,14 +65,14 @@
                     "input_type": "literal",
                     "type": "int",
                     "variable_name": "__RESP__valid_hrs",
-                    "required": false,
+                    "required": true,
                     "allowed": true
                 },
                 {
                     "input_type": "literal",
                     "type": "int",
                     "variable_name": "__RESP__hrs_before_pickup",
-                    "required": false,
+                    "required": true,
                     "allowed": true
                 }
             ],
@@ -146,7 +146,7 @@
                     "input_type": "literal",
                     "type": "int",
                     "variable_name": "__RESP__valid_hrs",
-                    "required": false,
+                    "required": true,
                     "allowed": true
                 },
                 {
@@ -227,14 +227,14 @@
                     "input_type": "literal",
                     "type": "int",
                     "variable_name": "__RESP__valid_hrs",
-                    "required": false,
+                    "required": true,
                     "allowed": true
                 },
                 {
                     "input_type": "literal",
                     "type": "int",
                     "variable_name": "__RESP__hrs_before_pickup",
-                    "required": false,
+                    "required": true,
                     "allowed": true
                 },
                 {
@@ -322,14 +322,14 @@
                     "input_type": "literal",
                     "type": "int",
                     "variable_name": "__RESP__valid_hrs",
-                    "required": false,
+                    "required": true,
                     "allowed": true
                 },
                 {
                     "input_type": "literal",
                     "type": "int",
                     "variable_name": "__RESP__hrs_before_pickup",
-                    "required": false,
+                    "required": true,
                     "allowed": true
                 }
             ],
@@ -403,14 +403,14 @@
                     "input_type": "literal",
                     "type": "int",
                     "variable_name": "__RESP__valid_hrs",
-                    "required": false,
+                    "required": true,
                     "allowed": true
                 },
                 {
                     "input_type": "literal",
                     "type": "int",
                     "variable_name": "__RESP__hrs_before_pickup",
-                    "required": false,
+                    "required": true,
                     "allowed": true
                 }
             ],
