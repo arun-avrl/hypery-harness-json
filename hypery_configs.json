@@ -285,7 +285,7 @@
                 "team_driver"
             ],
             "weight": 45000,
-            "distance_mi": 1750,
+            "distance_mi": 0,
             "max_temp_f": 85,
             "min_temp_f": 45,
             "commodity": "distilled alcohol and ethaanol products",
